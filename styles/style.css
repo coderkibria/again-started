@@ -1,8 +1,177 @@
-.gbutton{
-    padding: 10px 20px;
-    background-color:blue;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-family: 'Times New Roman', Times, serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Universal Styles */
+
+.global-texts {
+    font-size: 17px;
+    line-height: 25px;
+    color: #232323;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #800080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Navbar Section */
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #800080;
+    color: white;
+    padding: 15px 100px;
+}
+
+.nav-btn {
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('../assets/Hero-bg.png');
+    text-align: center;
+    padding: 40px;
+}
+
+.hero-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.hero-title {
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+
+.hero-texts {
+    padding-bottom: 20px;
+}
+
+
+/* Why Development Section*/
+.development {
+    max-width: 1050px;
+    margin: auto;
+    background-color: #fafafb;
+    margin-top: 50px;
+    padding: 40px;
+    padding-top: 60px;
+    border-radius: 12px;
+}
+
+.dev-sec-header {
+    text-align: center;
+}
+
+.dev-title {
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.dev-texts {
+    margin: 0 150px;
+    margin-bottom: 40px;
+}
+
+.dev-info {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px 50px;
+    background-color: #fff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.dev-info-2 {
+    background-color: #fafafb;
+}
+
+.info-title {
+    font-size: 26px;
+    padding-bottom: 20px;
+    line-height: 36px;
+}
+
+.info-texts {
+    margin-bottom: 20px;
+}
+
+/* Inspiration Section */
+.inspiration {
+    margin-top: 60px;
+}
+
+.ins-texts {
+    padding: 0 120px;
+}
+
+.yt-video {
+    max-width: 850px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #e7e2e2;
+    border-radius: 12px;
+}
+
+.tube {
+    border-radius: 12px;
+}
+/* Target Section */
+
+.target-skills{
+    max-width: 1050px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+.skill-box-1{
+    border-radius: 12px;
+    padding: 30px;
+    background: #fff6f4;
+}
+.skill-box-2{
+    border-radius: 12px;
+    padding: 30px;
+    background-color: #f2f6fe;
+}
+.skill-box-3{
+    border-radius: 12px;
+    padding: 30px;
+    background-color: #fffdf2;
+}
+.skill-img{
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
